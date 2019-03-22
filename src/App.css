@@ -1,32 +1,65 @@
-.App {
-  text-align: center;
+body{
+	margin:0;
+	padding: 0;
+	background-color: #f7f7f7;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.container-list{
+	border: solid 1px #D8DEDE;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-input{
+	display: flex;
+	justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.to-do-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	text-align: center;
+	font-size: 25px;
+	border-bottom: solid 0.5px #D8DEDE; 
+	margin-top: 1%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delete-btn{
+	border:none;
+	border-radius: 5px;
+	font-size: 15px;
+	color:white;
+	background-color: #E30C0C;
+	margin:2px;
+	margin-right: 25%;
 }
+
+.delete-btn,.add-btn,.to-do-list li:hover{
+	cursor: pointer;
+}
+
+.add-btn{
+	border-radius: 5px;
+	border:none;
+	background-color: #35BA00;
+	font-size: 35px;
+	color:white;
+	width: 3%;
+	margin:2px;
+}
+
+.add-input{
+	font-size: 25px;
+	padding: 3px;
+	border: solid 1px #D8DEDE;
+	border-radius: 5px;
+}
+
+
+
+
